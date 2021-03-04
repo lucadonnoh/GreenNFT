@@ -1,12 +1,28 @@
 <script>
-	export let name;
+	import { Router, Route } from "svelte-routing";
+	import NavLink from "./components/NavLink.svelte";
+	import About from "./routes/About.svelte";
 
-	var x = 3;
+	import Blog from "./routes/Blog.svelte";
+	import Home from "./routes/Home.svelte";
+
+	export let url = "";
+
 </script>
 
 <main>
-	<h1>GreenNFT {x}</h1>
-	<p>Visit the <a href="https://svelte.dev/tutorial">Svelte tutorial</a> to learn how to build Svelte apps.</p>
+	<Router url="{url}">
+		<nav>
+		  <NavLink to="/">Home</NavLink>
+		  <NavLink to="about">About</NavLink>
+		  <NavLink to="blog">Blog</NavLink>
+		</nav>
+		<div>
+		  <Route path="about" component="{About}" />
+		  <Route path="blog" component="{Blog}" />
+		  <Route path="/" component="{Home}" />
+		</div>
+	  </Router>
 </main>
 
 <style>
