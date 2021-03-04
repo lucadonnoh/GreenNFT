@@ -1,24 +1,29 @@
-from web3 import Web3
-import json
-import numpy as np
-
+import os
 import urllib.request
 
-w3 = Web3(Web3.HTTPProvider('https://mainnet.infura.io/v3/cde6cde8bd3d441693b4f374b6d9c747'))
-print(w3.eth.block_number())
-api_token = '71Y2R95HAFV4T7G8P2YW4JAZHZFGBNFAZU'
+import json
+import numpy as np
+from web3 import Web3
 
-address = '0x60F80121C31A0d46B5279700f9DF786054aa5eE5'
+from dotenv import load_dotenv
+
+load_dotenv()
+etherscan_token = os.environ['ETHERSCAN_TOKEN']
+infura_token = os.environ['INFURA_TOKEN']
+
+w3 = Web3(Web3.HTTPProvider(f'https://mainnet.infura.io/v3/{infura_token}'))
+print(w3.eth.block_number())
+
 
 def get_gas(address, start_block, requested_names=['mint']):
     address = Web3.toChecksumAddress(address)
 
-    contract_info_url = f'https://api.etherscan.io/api?module=contract&action=getabi&address={address}&apikey={api_token}'
+    contract_info_url = f'https://api.etherscan.io/api?module=contract&action=getabi&address={address}&apikey={etherscan_token}'
     contents = urllib.request.urlopen(contract_info_url).read()
     contract_info = json.loads(contents)
     abi = json.loads(contract_info['result'])
 
-    transactions_info_url = f'https://api.etherscan.io/api?module=account&action=txlist&address={address}&startblock={start_block}&endblock=99999999&sort=asc&apikey={api_token}'
+    transactions_info_url = f'https://api.etherscan.io/api?module=account&action=txlist&address={address}&startblock={start_block}&endblock=99999999&sort=asc&apikey={etherscan_token}'
     transactions_info = json.loads(urllib.request.urlopen(transactions_info_url).read())
 
 
