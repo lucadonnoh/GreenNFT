@@ -1,11 +1,14 @@
 [
     {
         "name": "Rarible",
-        "address": "0x60F80121C31A0d46B5279700f9DF786054aa5eE5"
+        "address": "0x60F80121C31A0d46B5279700f9DF786054aa5eE5",
+        "create" : "mint",
+        "url" : "A"
     },
     {
         "name": "SuperRare",
         "address": "0xb932a70A57673d89f4acfFBE830E8ed7f75Fb9e0",
-        "mint": "addNewToken"
+        "url" : "B",
+        "create": "addNewToken"
     }
 ]

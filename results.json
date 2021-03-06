@@ -1,1 +1,1 @@
-[{"name": "Rarible", "address": "0x60F80121C31A0d46B5279700f9DF786054aa5eE5", "mint": {"mean": 277515.28840436076, "median": 283140.0}}, {"name": "SuperRare", "address": "0xb932a70A57673d89f4acfFBE830E8ed7f75Fb9e0", "mint": {"mean": 258036.80065988452, "median": 257132.0}}]
+[{"name": "Rarible", "address": "0x60F80121C31A0d46B5279700f9DF786054aa5eE5", "url": "A", "mint": {"mean": 277515.28840436076, "median": 283140.0}}, {"name": "SuperRare", "address": "0xb932a70A57673d89f4acfFBE830E8ed7f75Fb9e0", "url": "B", "mint": {"mean": 258036.80065988452, "median": 257132.0}}]

@@ -45,7 +45,7 @@ def get_gas(address, start_block, requested_names=['mint']):
     return gas_results
 
 
-global_names = ['mint']
+global_names = ['create']
 
 nfts = json.load(open('nfts.json'))
 
@@ -64,7 +64,8 @@ for nft in nfts:
 
     gas_info = {
         'name' : nft['name'],
-        'address' : nft['address']
+        'address' : nft['address'],
+        'url' : nft['url']
     }
 
     reverse_dict = {v: k for k, v in nft.items()}
