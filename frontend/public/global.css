@@ -17,7 +17,8 @@ nav {
 }
 
 nav a {
-	margin: 2em;
+	margin-left: 2em;
+	margin-right: 2em;
 }
 
 main {
@@ -27,7 +28,7 @@ main {
 }
 
 a {
-	color: rgb(0,100,200);
+	color: black;
 	text-decoration: none;
 }
 
@@ -36,7 +37,7 @@ a:hover {
 }
 
 a:visited {
-	color: rgb(0,80,160);
+	color: black;
 }
 
 label {
