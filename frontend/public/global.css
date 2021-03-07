@@ -3,17 +3,31 @@ html, body {
 	width: 100%;
 	height: 100%;
 }
+html {
+  font-size: 16px;
+}
+@media screen and (min-width: 320px) {
+  html {
+    font-size: calc(16px + 6 * ((100vw - 320px) / 680));
+  }
+}
+@media screen and (min-width: 1000px) {
+  html {
+    font-size: 22px;
+  }
+}
 
 body {
-	color: #333;
+	color: #1d1d1f;
 	margin: 0;
 	padding: 8px;
 	box-sizing: border-box;
-	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+	font-family: "Signika",-apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
 }
 
 nav {
 	display: flex;
+	margin-bottom: 3em;
 }
 
 nav a {
@@ -28,16 +42,12 @@ main {
 }
 
 a {
-	color: black;
+	color: #1d1d1f;
 	text-decoration: none;
 }
 
 a:hover {
 	text-decoration: underline;
-}
-
-a:visited {
-	color: black;
 }
 
 label {
@@ -60,7 +70,7 @@ input:disabled {
 }
 
 button {
-	color: #333;
+	color: #1d1d1f;
 	background-color: #f4f4f4;
 	outline: none;
 }
@@ -75,4 +85,8 @@ button:not(:disabled):active {
 
 button:focus {
 	border-color: #666;
+}
+
+th {
+	width: 6.5em;
 }

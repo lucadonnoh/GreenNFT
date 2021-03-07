@@ -25,7 +25,7 @@
                 else {
                     return "N/A";
                 }
-            } 
+            }
         },
         {
             key: "create",
@@ -55,10 +55,7 @@
     const data = results;
 </script>
 
-<h1>Home</h1>
-<p>This is the home</p>
-
 <SvelteTable
-  classNameTable="table"
+  classNameTable="table table-striped"
   columns={columns}
   rows={data}/>
