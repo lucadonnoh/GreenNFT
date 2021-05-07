@@ -15,4 +15,4 @@ You can find the paper [here](https://github.com/lucadonnoh/GreenNFT/raw/main/Gr
 6. As of early May 2021, Ethereum emits 24.76 MtCO2eq per year;
 7. EIP-1559 is expected to reduce global Ethereum emissions by about a third;
 8. Using Layer 2 technologies significantly reduces the impact of transactions;
-9. Transitioning to Proof of Stake remains the best long-term solution for Ethereum
+9. Transitioning to Proof of Stake remains the best long-term solution for Ethereum.
