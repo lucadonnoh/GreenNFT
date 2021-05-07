@@ -1,6 +1,6 @@
 # Green NFTs: A Study on the Environmental Impact of Cryptoart Technologies
 
-"Green NFTs: A Study on the Environmental Impact of Cryptoart Technologies" is a paper written by Samuele Marro and Luca Donno, with the help of Giuseppe Pignataro (Professor of Microeconomics and Political Economy at University of Bologna). It analyzes the impact of the Ethereum blockchain as a whole, as well as of a single transaction. It also describes several solutions to help cryptoartists reduce their emissions. While our model is designed with cryptoart in mind, it can be easily applied to other areas, such as decentralized finance and games.
+"Green NFTs: A Study on the Environmental Impact of Cryptoart Technologies" is a paper written by Samuele Marro and Luca Donno, with the help of Giuseppe Pignataro (Professor of Microeconomics and Political Economy at University of Bologna). It analyzes the impact of both individual transactions and the Ethereum blockchain as a whole. It also describes several solutions to help cryptoartists reduce their emissions. While our model is designed with cryptoart in mind, it can be easily applied to other areas, such as decentralized finance and games.
 
 You can find our paper [here](https://github.com/lucadonnoh/GreenNFT/blob/main/Green%20NFTs%20-%20A%20Study%20on%20the%20Environmental%20Impact%20of%20Cryptoart%20Technologies.pdf).
 
