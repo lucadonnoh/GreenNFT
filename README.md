@@ -8,6 +8,7 @@ Remember to check out the paper's companion website, [Green NFT Helper](https://
 
 # Key Takeaways
 
+The most important conclusions of our paper are:
 
 1. The impact of a transaction does not depend only on the gas used, but is instead proportional to the transaction fee;
 2. Spending 1 dollar on transaction fees on Ethereum is equivalent to emitting at least 1.115 kgCO2eq;
