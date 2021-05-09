@@ -22,4 +22,4 @@ The most important conclusions of our paper are:
 
 # Errata Corrige
 
-After publication, we noticed that in sections 1 (Introduction) and 9 (Key Takeaways) we used an incorrect value of alpha_m (1.115) instead of the correct one (1.151) computed in section 5 (Estimating alpha_m). This mistake has been corrected in the latest version. Since all other figures were computed using the correct value, no further corrections were necessary.
+After publication, we noticed that in sections 1 (Introduction) and 9 (Key Takeaways) we used an incorrect value of alpha_tot (1.115) instead of the correct one (1.151) computed in section 5 (Estimating alpha_m). This mistake has been corrected in the latest version. Since all other figures were computed using the correct value, no further corrections were necessary.
